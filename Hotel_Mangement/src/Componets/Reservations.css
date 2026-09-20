@@ -1,0 +1,6 @@
+.table-head,.table-row{grid-template-columns:1.3fr 1.2fr 1.45fr .65fr 1fr}
+.booking-actions{display:flex;gap:7px}
+.booking-actions button{border:0;border-radius:2px;padding:7px 10px;font:700 11px inherit;cursor:pointer}
+.edit-booking{background:#e8f0ed;color:#245f58}
+.cancel-booking{background:#fdefec;color:#9d3f36}
+@media(max-width:760px){.booking-actions{grid-column:1/-1}}
